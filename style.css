@@ -18,7 +18,7 @@ h1{
     border-radius: 7px;
     padding: 10px 30px 10px 30px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -37,4 +37,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+footer p{
+    text-align: center;
+}
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h3{
+    color: orange;
+}
+.experiences-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 20px;
+}
+h2{
+    font-size: 40px;
+}
+#border1{
+    border-left: 7px solid orange;
+}
+#border2{
+    border-left: 7px solid blue;
 }

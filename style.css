@@ -37,6 +37,7 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-right: 10px;
 }
 footer p{
     text-align: center;
@@ -46,7 +47,7 @@ footer p{
     background-repeat: no-repeat;
     background-position: left;
 }
-h3{
+.developer{
     color: orange;
 }
 .experiences-item{
